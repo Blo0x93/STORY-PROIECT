@@ -1,0 +1,167 @@
+:: StoryTitle
+STORY PROIECT
+
+
+:: StoryData
+{
+  "ifid": "DAE02B33-F54F-4AF8-95CF-E92C4A869DE1",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: Untitled Passage {"position":"700,300","size":"100,100"}
+
+
+
+:: StoryScript [script]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ZERO DAY – Codul din Umbre</title>
+    <script src="https://cdn.jsdelivr.net/gh/tweecode/harlowe@3.3.5/dist/format.js"></script>
+    <style>
+      /* Stiluri CSS pentru fundalul tehnologic */
+      body {
+        background-image: url('https://example.com/path/to/tech-background.jpg'); /* Schimbă acest URL cu imaginea dorită */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        font-family: 'Arial', sans-serif;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+      }
+
+      tw-storydata {
+        position: relative;
+        z-index: 1;
+      }
+
+      tw-passagedata {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6); /* Fundal semitransparent pentru text */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+      }
+
+      h1 {
+        font-size: 36px;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      a {
+        color: #00ffcc;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .tw-storydata, .tw-passagedata {
+        z-index: 2;
+      }
+
+    </style>
+  </head>
+  <body>
+    <tw-storydata name="ZERO DAY – Codul din Umbre" startnode="1" creator="Twine" creator-version="2.6.2" ifid="12345678-90ab-cdef-1234-567890abcdef" format="Harlowe" options="" hidden>
+      <style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style>
+      <script role="script" id="twine-user-script" type="text/twine-javascript"></script>
+      <tw-passagedata pid="1" name="Start" tags="" position="100,100" size="100,100">
+        [[ZERO DAY – Codul din Umbre]]
+
+        București, ora 02:43 AM. Sistemul de alertă al Sentinel-3, AI-ul guvernamental de detecție cibernetică, semnalează un atac de tip Zero-Day asupra rețelei clasificate.
+
+        Timp estimat până la compromitere totală: **3 minute**.
+
+        Sentinel-3 propune izolarea automată a rețelei.
+
+        [[Autorizezi izolarea totală (zero trust)|IzolareTotala]]
+        [[Activezi izolare parțială, cu filtrare manuală|IzolarePartiala]]
+      </tw-passagedata>
+      <tw-passagedata pid="2" name="IzolareTotala" tags="" position="200,100" size="100,100">
+        AI-ul controlează complet traficul. Conexiunile externe sunt oprite.
+
+        **Consecință:** Partenerii NATO nu pot contacta România pentru 3 ore.
+
+        [[Continuă|Contraatacul]]
+      </tw-passagedata>
+      <tw-passagedata pid="3" name="IzolarePartiala" tags="" position="300,100" size="100,100">
+        Rețeaua rămâne parțial deschisă. Filtrarea manuală e lentă.
+
+        **Consecință:** Un pachet criptat necunoscut se strecoară în serverul Ministerului Apărării.
+
+        [[Continuă|Contraatacul]]
+      </tw-passagedata>
+      <tw-passagedata pid="4" name="Contraatacul" tags="" position="400,100" size="100,100">
+        Sentinel detectează originea atacului în afara țării. Poate trimite un worm reversibil – dar are nevoie de aprobare.
+
+        [[Trimiți contraatacul AI|ContraAI]]
+        [[Notifici Consiliul și aștepți aprobarea|AsteptiConsiliul]]
+      </tw-passagedata>
+      <tw-passagedata pid="5" name="ContraAI" tags="" position="500,100" size="100,100">
+        AI-ul lansează contraatacul.
+
+        **Consecință:** Sursa e neutralizată, dar România încalcă o convenție internațională.
+
+        [[Continuă|ScenariuNecunoscut]]
+      </tw-passagedata>
+      <tw-passagedata pid="6" name="AsteptiConsiliul" tags="" position="600,100" size="100,100">
+        În cele 4 minute de așteptare, hackerii criptează 12% din bazele de date.
+
+        **Consecință:** AI-ul recuperează parțial, dar daunele sunt semnificative.
+
+        [[Continuă|ScenariuNecunoscut]]
+      </tw-passagedata>
+      <tw-passagedata pid="7" name="ScenariuNecunoscut" tags="" position="700,100" size="100,100">
+        O înregistrare falsă cu președintele apare online. Populația reacționează în masă.
+
+        Sentinel-3 cere voie să blocheze rețelele sociale pentru 30 de minute.
+
+        [[Aprobă blocajul total|Blackout]]
+        [[Permite doar semnalizarea conținutului fals|Semnalare]]
+      </tw-passagedata>
+      <tw-passagedata pid="8" name="Blackout" tags="" position="800,100" size="100,100">
+        Rețelele sunt închise temporar.
+
+        **Consecință:** Panica e controlată, dar populația devine suspicioasă.
+
+        [[Final|Evaluare]]
+      </tw-passagedata>
+      <tw-passagedata pid="9" name="Semnalare" tags="" position="900,100" size="100,100">
+        AI-ul semnalează falsurile, dar nu le poate opri din răspândire.
+
+        **Consecință:** Încrederea publică se prăbușește. Opoziția cere demiterea ta.
+
+        [[Final|Evaluare]]
+      </tw-passagedata>
+      <tw-passagedata pid="10" name="Evaluare" tags="" position="1000,100" size="100,100">
+        “Analiză completă: **78% protecție**.  
+        12% pierderi informaționale.  
+        1 incident diplomatic.  
+        Profil utilizator: **DECIDENT PRAGMATIC**.”
+
+        **Sentinel-3:** *Inteligența artificială poate apăra o națiune. Dar nu poate înlocui discernământul uman.*
+
+        [[Repornește jocul|Start]]
+      </tw-passagedata>
+    </tw-storydata>
+  </body>
+</html>
